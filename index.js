@@ -10,7 +10,14 @@ function findMatching(drivers, st){
 }
 
 function matchName(drivers, st){
-  return drivers.filter()
+  return drivers.filter(
+    n => {
+      if(st.toUpperCase()charAt(0)== n.toUpperCase().charAt(0)){
+        return n;
+      }
+
+    }
+  )
 
 
 }
