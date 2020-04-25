@@ -4,17 +4,17 @@ function findMatching(drivers, st){
     if(st.toUpperCase()=== n.name.toUpperCase()){
       return n;
     }
-    
+
   })
-  
+
 }
 
 function matchName(drivers, st){
   return drivers.filter()
 
-  
+
 }
 function fuzzyMatch(drivers, st){
 
-  
+
 }
